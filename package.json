@@ -4,16 +4,23 @@
   "description": "JavaScript and NPM modules",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/markjohn519/git-exercise-2.git"
   },
-  "author": "“Mark John Paul Monton <mark.monton@siteminder.com>”",
+  "author": "“Mark John Paul Monton <mark.monton@siteminder.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/markjohn519/git-exercise-2/issues"
   },
-  "homepage": "https://github.com/markjohn519/git-exercise-2#readme"
+  "homepage": "https://github.com/markjohn519/git-exercise-2#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "keywords": []
 }
